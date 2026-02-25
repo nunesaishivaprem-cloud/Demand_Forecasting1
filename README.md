@@ -21,9 +21,9 @@ Python, Pandas, NumPy, VS Code, GitHub
 ## Milestone 2 – Feature Engineering
 
 # Overview
-The objective of Milestone 2 is to Prepare the dataset for modeling through enrichment and transformation.
+The objective of Milestone 2 is to Prepare the dataset for modeling through enrichment and transformation .
 
-# Work Completed
+# Work Completed 
 - Created seasonality indicators from timestamp
 - Generated lag features for demand forecasting
 - Computed rolling averages for trend detection
