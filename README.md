@@ -32,3 +32,52 @@ The objective of Milestone 2 is to Prepare the dataset for modeling through enri
 
 # Tools used
 Python, Pandas, NumPy, VS Code, GitHub.
+
+## Milestone 3 – Machine Learning Model Development
+ 
+# Overview
+In this milestone, multiple machine learning models were trained on the
+feature-engineered dataset to predict Azure storage demand.
+
+# Work Completed
+Models Implemented:
+- Linear Regression
+- XGBoost Regressor
+- ARIMA Time Series Model
+
+Evaluation Metrics:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+
+The models were compared using historical demand data, and the best performing
+model was selected based on empirical accuracy.
+
+# Tools Used
+pandas ,numpy , scikit-learn , statsmodels , xgboost , matplotlib
+
+## Hyperparameter tuning was performed using GridSearchCV to optimize the XGBoost model parameters for improved forecasting accuracy.
+
+## Model Deployment Preparation
+The final tuned XGBoost model is saved in the models directory.
+A prediction script was implemented to generate demand forecasts using the trained model.
+
+Files:
+models/xgboost_demand_model.pkl
+src/predict_demand.py
+
+## Installation
+Clone the repository:
+git clone https://github.com/YOUR_USERNAME/Demand_Forecasting1.git
+Install required dependencies:
+pip install -r requirements.txt
+
+## Running the Project
+
+- Step 1 – Data Preprocessing
+python src/data_preprocessing.py
+- Step 2 – Feature Engineering
+python src/feature_engineering.py
+- Step 3 – Train Machine Learning Models
+python src/model_training.py
+- Step 4 – Generate Predictions
+python src/predict_demand.py
