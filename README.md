@@ -59,7 +59,7 @@ pandas ,numpy , scikit-learn , statsmodels , xgboost , matplotlib
 
 ## Model Deployment Preparation
 The final tuned XGBoost model is saved in the models directory.
-A prediction script was implemented to generate demand forecasts using the trained model.
+A prediction script was implemented to generate demand forecasts using the trained model .
 
 Files:
 models/xgboost_demand_model.pkl
